@@ -58,6 +58,8 @@ function handleFilterChange() {
   }
 }
 
-// Initialize the page
-populateYears();
+// Ensure we only call populateYears once
+document.addEventListener('DOMContentLoaded', function() {
+  populateYears();
+});
 
