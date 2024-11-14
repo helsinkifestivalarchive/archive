@@ -1,0 +1,1290 @@
+{
+  "Employees": {
+    "Employee": [
+      {
+        "Finnish Museum of Architecture\r": "Helsinki City Theatre\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "National Museum\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Finnish National Theater\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Swedish Theatre\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Culture House\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Amos Anderson Art Museum\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Finnish National Opera\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Ateneum Art Museum\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Seurasaari\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Meilahti church\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "University of Helsinki\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Suomenlinna & Otaniemi Chapel\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Dipole\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Knight's room\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Knight's room & Otaniemi chapel\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Suomenlinna\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Otaniemi chapel\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Sibelius park\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki Cathedral\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Mikael Agricola Church\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kannelmäki church\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki fair hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "The old student house\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki Art Gallery\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kluuvin Gallery\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Parks along 3 lines\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Galerie Artek\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Lilla Teatern\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Art salon Pinx\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Bio Maxim\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki Conservatory\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Linnanmäki\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Taivallahti Church\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Uspensky Cathedral\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "John's Church\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "St. Mary's Church\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki Labor House\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kluuv gallery yard\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki Ice Hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Ateneum's Mikonkatu park\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "German institute\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kaivopuisto\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Aleksanterinkatu\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Wärtsilä Shop\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Senate Square\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Municipal maintenance facilities\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Esplanade Park\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Topelius park\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Action Center\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Academy building\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki City Hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Maxim\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "The crypt of Helsinki Cathedral\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Restaurant Kalastajatorppa\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Taivallahti church & Helsinki fair hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Ratakatu 9\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Karhupuisto & Vuorimiehenkatu park\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Festival Club\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Rowing stadium\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Jugendsal\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Tapiola\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Inner city yards\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Finnish Design Center\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Chydenia\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "The project\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kallio church\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Tram line 3\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Intimate theater\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Sibelius monument\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Workers' college\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Temple square church\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Esplanade stage\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Munkkivuori shopping center\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "in different parts of the city\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Pihlajamäki\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Puotinharju shopping center\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kontula shopping center\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Galerie Hörhammer\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Southern port\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Galerie Christel\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Finlandia House\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "TM gallery\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki City Museum\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Barracks exhibition hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Taidegrafikot gallery\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "parks and suburbs\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Arcadia Park\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Hämäläinen house\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kaisaniemi Park & ​​Bear Park\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Finlandia Hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Esplanade Chapel\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Market\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "South Hague\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kontula\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Myllypuro\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Laajasalo\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Puotila manor\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Meilahti manor\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Didrichsen Art Museum\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Esplanade\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Barrack Market Hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Capitol\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kaisaniemi park\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Linnanmäki cave\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Koito's ballroom & Helsinki schools\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Bear park\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Barrack Square\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kalliola Free College\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "La Scala\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Ala-Malmi civic school\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Theater Jurkka\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Finnish co-educational school in Helsinki\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "In front of Helsinki City Theatre\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "City garden\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Customs Island\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Herttoniemi manor park\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Oulunkylä Pikkukoski\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Finnish Museum of Photographic Art\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "N-Club\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Goethe Institute\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Oulunkylä public house\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Sinebrychoff Park\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "shopping malls\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Gloria\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Hvitträsk\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki Savings Bank\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Messukeskus\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Keskuskatu shopping street\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "The mountain man's park\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Bristol & Aura\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Blueberry country\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Elanto's ballroom\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Orion\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Koito ballroom\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Bristol\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kuntokallio College\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Roihuvuori church\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "The house of the book\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "The ballroom and A-hall of the Helsinki Labor Hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kannelmäki church & Käpylä church\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Harald's\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Gallery Taidepiste\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Steady house\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "John's Church & Kallio's Church\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Tapanila VPK\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kontula library\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Käpylä church\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kontula and Laajasalo youth facilities\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki University of Labor\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Sibelius Academy\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Oulunkylä church\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "City Art Collections\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Restaurant Handelsgillet\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Diana\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Finlandia-talo & Kulttuuritalo\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Savoy\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Police\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "The old church\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Sibelius Academy & Temppeliaukio Church\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Old Poli\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Bronda's gallery\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Art Industry Museum\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki City Art Museum\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Old student hall & Sibelius Academy\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki Central Prison\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "New Orion\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Studio 2\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Sibelius Academy (September 3) & Kulttuuritalo (September 5)\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Culture house theater\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "suburbs\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki County Prison\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Cinema Joukola\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "North Esplanade\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Gallery Bronda\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Cultural Affairs Center of the City of Helsinki\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "North Helsinki middle school\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki's Lutheran congregations\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Töölö race hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki city center\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Olympic\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Rautatintor metro station\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki City Theater lobby\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Group theatre\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Church of the Keeper of Helsinki\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Espoonlahti Church\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Villa Vallmogård\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Youth traffic activity center\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Nordic Art Center\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Gallery of the old\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "The Art Industry Museum and the Museum of Finnish Architecture\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Esplanadi park & ​​Jugendsali\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Studio Julius\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Munkkiniemi Community School\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Center for Cultural Affairs\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Tarvaspää museum\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Swedish School of Economics\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Ostrobothnia\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kontula youth center & Laajasalo youth center\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Bot\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Culture and Science Center of the Soviet Union\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Hvitträsk museum\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Photo gallery Hippolyte\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kluuv's gallery and yard\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kino Kosmos\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Church of the Beautiful\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Banquet Hall of Helsinki Labor College & Itäkeskus Multipurpose Hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Daycare Bird song\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Arabia-Nuutajärvi\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Evangelical Lutheran churches in Helsinki\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Itäkeskus multipurpose building\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Banquet hall of the University of Helsinki\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Katajanokka warehouses\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Nissbacka\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Villa Valmgård\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Old Banking Hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Sinebrychoff Art Museum\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Tavastia & Harald's\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki Kindergarten Teacher's College\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Finnish co-educational school\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Pelimann Club Center\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Gallery of the book cafe\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Tuomarinkylä manor\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "The streets of Helsinki\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Gallery Katariina\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Galerie Kaj Forsblom\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Finlandia Hall & Sibelius Academy\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "M/S Mariella & Itäkeskus multipurpose building\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Corner chamber\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Sonck hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki metro stations\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Gallery Finnfoto\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Finlandia Hall & Martinus Concert Hall in Vantaa\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Orion & Amanda\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "The Savoy Theatre\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "The old church & Villa Vallmogård\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Savoy Theater & Helsinki Keeper's Church\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Savoy Theater & Martinus Concert Hall in Vantaa\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Katajanokka's old machine shop\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Gallery/Myyrmäki library\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki University Library\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Töölönlahti\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "French cultural center\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Vantaa concert hall Martinus\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Studio Julius/UMO Jazz Center\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Haka's hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Gallery Otso\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Erottajankatu 9\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "White Hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Gallery Okra\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Taidemaalariliitoto gallery\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Show windows in the center of Helsinki\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Academic Bookstore\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "The Cinema Foundation's auditorium\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Espoo cultural center\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Pohjomainen Taidekeskus and MUU ry\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Espoo cultural center & Temppeliaukio church\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "The rock shelter of the Helsinki City Museum\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Bio Grand\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Nokia Cable Factory\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Astoria\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Gallery Augusta\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Linseed oil\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki's parks\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Gallery Sculptor\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Critical condition\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "AV sheet of MUU ry\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki Art Industry Museum\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Railway station & Cafe Aalto\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "The Department of Dance at the Academy of Dramatic Arts\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Workers' house\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Suomenlinna & Muu ry / Vapaudenaukio\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Gallery Freedom Square\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Gallery Critical state\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Savoy Theater & Itäkeskus\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Party hall of the Labor House\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Mäntymäki field\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "\"Sibelius Academy\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Villa Vallmogård\"\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "KOM Theater\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Galerie Pelin\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Gallen-Kallela Museum\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "M/S Tallink and Georg Ots\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Galerie Anhava\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Gallery D'Arte\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Gallery Mosabacka\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "AmerGalleria\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Jumo Jazz Club\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Cable factory\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Korkeasaari Zoo\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Well room\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Museum of Contemporary Art\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Stop\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Annantalo\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kanneltalo\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Alexander Theatre\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Annegården\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Itäkeskus library\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kanneltalo & Stoa\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "The streets and buildings of the core\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Geology Research Center's Stone Museum\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "The courtyard of the National Museum\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Tuomarinkylä Children's Museum\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Ore house\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Theater Museum\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki School Museum & Kaisaniemi Primary School\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "VR magazines\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Villa\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Cinema Helsinki\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Market square - Esplanadi - Kolmen seppa square\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Café Strindberg\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Tarkk'ampujankatu/Kasarmikatu/Neitsytpolku\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "A virus\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Old student house (moved from Huvila)\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Bio Illusion\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Neste gas station\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Things to do\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Other gallery etc.\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Cinema Engel\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Q Theater\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "German Church\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Chat room\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Summer cinema Engel\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Galleries around Helsinki\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Zodiac\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Aktia hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Field of Aurora\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "The Glass Palace\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki Conservatory's New Theatre\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Bio Rex\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Market square and Esplanadi park\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Bio Rex window\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Newspaper mediator\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Klockriketeatern\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Orion & Andorra\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Media center Lume\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Töölönlahti warehouses\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kiasma Theatre\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Ruoholahti elementary school\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Cello room\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Ateneum art museum\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Glass palace square\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "UMO Jazz House\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki service centers and hospitals\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Aino Ackté's villa\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Luotsikatu 7\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Theater Takomo\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Tokoinranta\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Annantalo Art Center\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Sea park\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Finlandia Park\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "The warmth of the Kiasma theater\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Taivallahti field\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Temppeliaukio Church & Finlandia Hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Suvilahti\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Private homes\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Orion & Bio Rex\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Cultural arena Gloria\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Lasipalatsi square / Esplanadi park\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Finnish National Theater stage club\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Laterna Magica\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Cirko center\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Virus theater\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Bio Rex & Ateneum Hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Helsinki courtyards\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Music house\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Civic Square\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Lapinlahti Hospital\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Theater University\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "The universe\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "The towers of Helsinki\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kyläsaarenkatu 14\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Rock & Zoo\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kaivopuisto beach\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Crane\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Central hall of the railway station\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Knight's Room & Music Hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Theater Virus\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Hoppet ship\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "The tower of Ettertaja rescue station\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Design museum\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Vuosaari\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kiasma Museum of Contemporary Art\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "The zoo's sports field\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Restaurant Kämp\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Keskuskatu\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Scandic Park Helsinki\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Maria's Hospital\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Work\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Elmu's bar\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "EMMA - Espoo Museum of Modern Art\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Machine shop Bruno\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Gallery Go there\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kultuuritehdas Repair shop\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Citrator\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Exhibition center WeeGee\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kämp Collection Hotels\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Elisa Kulma\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Church of Agricola\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Puppet theater Sampo\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Hoarding store\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Railway station\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Cinema Regina\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Record hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Oodi National Library\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Circus\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Town hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Boiler hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Kiasma\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "around the city\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Gallery Rankka\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Temple square church \r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "stream (HS)\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "G Livelab \r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "different venues\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Amos Rex\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Sea cable hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Art hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Walking work in Töölö\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Space for Free Art\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Mustavuueri cave\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Metsämäki bridge underpass\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Huvilanranta's program\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "House of Dance\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Rock hall\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "In town\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Art with corners\r"
+      },
+      {
+        "Finnish Museum of Architecture\r": "Villa beach"
+      }
+    ]
+  }
+}

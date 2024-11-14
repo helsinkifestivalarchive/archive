@@ -1,0 +1,507 @@
+{
+  "Employees": {
+    "Employee": [
+      {
+        "classic\r": "opera\r"
+      },
+      {
+        "classic\r": "ballet\r"
+      },
+      {
+        "classic\r": "musical\r"
+      },
+      {
+        "classic\r": "pantomime\r"
+      },
+      {
+        "classic\r": "jazz\r"
+      },
+      {
+        "classic\r": "pop\r"
+      },
+      {
+        "classic\r": "underground\r"
+      },
+      {
+        "classic\r": "folk music\r"
+      },
+      {
+        "classic\r": "cartoon\r"
+      },
+      {
+        "classic\r": "design\r"
+      },
+      {
+        "classic\r": "children's music\r"
+      },
+      {
+        "classic\r": "world\r"
+      },
+      {
+        "classic\r": "choral music\r"
+      },
+      {
+        "classic\r": "rock\r"
+      },
+      {
+        "classic\r": "photo\r"
+      },
+      {
+        "classic\r": "handicraft\r"
+      },
+      {
+        "classic\r": "folk dance\r"
+      },
+      {
+        "classic\r": "tango\r"
+      },
+      {
+        "classic\r": "folk\r"
+      },
+      {
+        "classic\r": "textile art\r"
+      },
+      {
+        "classic\r": "popular song\r"
+      },
+      {
+        "classic\r": "gospel\r"
+      },
+      {
+        "classic\r": "chanson\r"
+      },
+      {
+        "classic\r": "funk\r"
+      },
+      {
+        "classic\r": "pop rock\r"
+      },
+      {
+        "classic\r": "prog\r"
+      },
+      {
+        "classic\r": "blues\r"
+      },
+      {
+        "classic\r": "jazz folk\r"
+      },
+      {
+        "classic\r": "ditty\r"
+      },
+      {
+        "classic\r": "reggae\r"
+      },
+      {
+        "classic\r": "environmental art\r"
+      },
+      {
+        "classic\r": "spatial art\r"
+      },
+      {
+        "classic\r": "performance art\r"
+      },
+      {
+        "classic\r": "participatory art\r"
+      },
+      {
+        "classic\r": "video art\r"
+      },
+      {
+        "classic\r": "installation\r"
+      },
+      {
+        "classic\r": "flamenco\r"
+      },
+      {
+        "classic\r": "multimedia presentation\r"
+      },
+      {
+        "classic\r": "light art\r"
+      },
+      {
+        "classic\r": "rock/industrial\r"
+      },
+      {
+        "classic\r": "contemporary music\r"
+      },
+      {
+        "classic\r": "rap\r"
+      },
+      {
+        "classic\r": "performance art\r"
+      },
+      {
+        "classic\r": "hip hop\r"
+      },
+      {
+        "classic\r": "heavy metal\r"
+      },
+      {
+        "classic\r": "electronic\r"
+      },
+      {
+        "classic\r": "folk / world\r"
+      },
+      {
+        "classic\r": "soul\r"
+      },
+      {
+        "classic\r": "punk\r"
+      },
+      {
+        "classic\r": "lounge\r"
+      },
+      {
+        "classic\r": "a cappella\r"
+      },
+      {
+        "classic\r": "jungle\r"
+      },
+      {
+        "classic\r": "latin\r"
+      },
+      {
+        "classic\r": "ska\r"
+      },
+      {
+        "classic\r": "klezmer\r"
+      },
+      {
+        "classic\r": "salsa\r"
+      },
+      {
+        "classic\r": "ethno\r"
+      },
+      {
+        "classic\r": "son\r"
+      },
+      {
+        "classic\r": "afro\r"
+      },
+      {
+        "classic\r": "psychobilly\r"
+      },
+      {
+        "classic\r": "fado\r"
+      },
+      {
+        "classic\r": "hump\r"
+      },
+      {
+        "classic\r": "bossa nova\r"
+      },
+      {
+        "classic\r": "r&b\r"
+      },
+      {
+        "classic\r": "afrobeat\r"
+      },
+      {
+        "classic\r": "country\r"
+      },
+      {
+        "classic\r": "art music\r"
+      },
+      {
+        "classic\r": "indie\r"
+      },
+      {
+        "classic\r": "avant-garde\r"
+      },
+      {
+        "classic\r": "samba\r"
+      },
+      {
+        "classic\r": "hip-hop\r"
+      },
+      {
+        "classic\r": "electro\r"
+      },
+      {
+        "classic\r": "pop-rock\r"
+      },
+      {
+        "classic\r": "afro-pop\r"
+      },
+      {
+        "classic\r": "folk pop\r"
+      },
+      {
+        "classic\r": "beatbox\r"
+      },
+      {
+        "classic\r": "swing\r"
+      },
+      {
+        "classic\r": "electro\r"
+      },
+      {
+        "classic\r": "bluegrass\r"
+      },
+      {
+        "classic\r": "contemporary dance\r"
+      },
+      {
+        "classic\r": "fusion\r"
+      },
+      {
+        "classic\r": "electro soul\r"
+      },
+      {
+        "classic\r": "rock'n'roll\r"
+      },
+      {
+        "classic\r": "neo soul\r"
+      },
+      {
+        "classic\r": "game music\r"
+      },
+      {
+        "classic\r": "boss\r"
+      },
+      {
+        "classic\r": "metal\r"
+      },
+      {
+        "classic\r": "disco\r"
+      },
+      {
+        "classic\r": "throat singing\r"
+      },
+      {
+        "classic\r": "electonica\r"
+      },
+      {
+        "classic\r": "art pop\r"
+      },
+      {
+        "classic\r": "indie mariachi\r"
+      },
+      {
+        "classic\r": "americana\r"
+      },
+      {
+        "classic\r": "community art\r"
+      },
+      {
+        "classic\r": "world music\r"
+      },
+      {
+        "classic\r": "open stage\r"
+      },
+      {
+        "classic\r": "club\r"
+      },
+      {
+        "classic\r": "indie rock\r"
+      },
+      {
+        "classic\r": "punk funk\r"
+      },
+      {
+        "classic\r": "art rock\r"
+      },
+      {
+        "classic\r": "finnish rock\r"
+      },
+      {
+        "classic\r": "big band\r"
+      },
+      {
+        "classic\r": "sound work\r"
+      },
+      {
+        "classic\r": "indie pop\r"
+      },
+      {
+        "classic\r": "folk pop\r"
+      },
+      {
+        "classic\r": "dj music\r"
+      },
+      {
+        "classic\r": "sythwave\r"
+      },
+      {
+        "classic\r": "folktronica\r"
+      },
+      {
+        "classic\r": "classical and contemporary music\r"
+      },
+      {
+        "classic\r": "different genres\r"
+      },
+      {
+        "classic\r": "indie rock\r"
+      },
+      {
+        "classic\r": "instrumental\r"
+      },
+      {
+        "classic\r": "shoegaze\r"
+      },
+      {
+        "classic\r": "west african pop\r"
+      },
+      {
+        "classic\r": "photography\r"
+      },
+      {
+        "classic\r": "pop/rock\r"
+      },
+      {
+        "classic\r": "sound art\r"
+      },
+      {
+        "classic\r": "alternative\r"
+      },
+      {
+        "classic\r": "new age\r"
+      },
+      {
+        "classic\r": "heavy\r"
+      },
+      {
+        "classic\r": "dance\r"
+      },
+      {
+        "classic\r": "rai\r"
+      },
+      {
+        "classic\r": "film music\r"
+      },
+      {
+        "classic\r": "ambient\r"
+      },
+      {
+        "classic\r": "roots\r"
+      },
+      {
+        "classic\r": "vocal music\r"
+      },
+      {
+        "classic\r": "afro blues\r"
+      },
+      {
+        "classic\r": "rumba\r"
+      },
+      {
+        "classic\r": "cajun\r"
+      },
+      {
+        "classic\r": "electronic\r"
+      },
+      {
+        "classic\r": "dance music\r"
+      },
+      {
+        "classic\r": "chamber music\r"
+      },
+      {
+        "classic\r": "baroque\r"
+      },
+      {
+        "classic\r": "chicano\r"
+      },
+      {
+        "classic\r": "r&b\r"
+      },
+      {
+        "classic\r": "trip hop\r"
+      },
+      {
+        "classic\r": "rhythm'n'blues\r"
+      },
+      {
+        "classic\r": "music\r"
+      },
+      {
+        "classic\r": "hip hop\r"
+      },
+      {
+        "classic\r": "choral works\r"
+      },
+      {
+        "classic\r": "glam rock\r"
+      },
+      {
+        "classic\r": "progrock\r"
+      },
+      {
+        "classic\r": "dreampop and indie\r"
+      },
+      {
+        "classic\r": "ethno-pop\r"
+      },
+      {
+        "classic\r": "electronic\r"
+      },
+      {
+        "classic\r": "dub\r"
+      },
+      {
+        "classic\r": "artificial intelligence\r"
+      },
+      {
+        "classic\r": "bhangra\r"
+      },
+      {
+        "classic\r": "gamelan\r"
+      },
+      {
+        "classic\r": "choro\r"
+      },
+      {
+        "classic\r": "indian\r"
+      },
+      {
+        "classic\r": "balkans\r"
+      },
+      {
+        "classic\r": "arabic\r"
+      },
+      {
+        "classic\r": "performing arts\r"
+      },
+      {
+        "classic\r": "r'n'b\r"
+      },
+      {
+        "classic\r": "rhythm and blues\r"
+      },
+      {
+        "classic\r": "drum'n'bass\r"
+      },
+      {
+        "classic\r": "cumbia\r"
+      },
+      {
+        "classic\r": "techno\r"
+      },
+      {
+        "classic\r": "country\r"
+      },
+      {
+        "classic\r": "blues and soul\r"
+      },
+      {
+        "classic\r": "dancehall\r"
+      },
+      {
+        "classic\r": "workshops\r"
+      },
+      {
+        "classic\r": "thaipop\r"
+      },
+      {
+        "classic\r": "r&b and avant-pop\r"
+      },
+      {
+        "classic\r": "pop and electronic\r"
+      },
+      {
+        "classic\r": "experimental jazz"
+      }
+    ]
+  }
+}
