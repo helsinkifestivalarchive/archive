@@ -26,26 +26,28 @@ async function displayYears() {
 
   yearsListDiv.innerHTML = "<h2>Festival Years</h2>";
 
+  // Fetch the years from the CSV file
   const years = await fetchCSV("data/Years.csv");
 
-  if (years.length === 0) {
+  // Deduplicate years by using a Set
+  const uniqueYears = [...new Set(years.filter(year => year))]; // Filter out any empty rows
+
+  if (uniqueYears.length === 0) {
     yearsListDiv.innerHTML += "<p>No years found in the data.</p>";
     return;
   }
 
   const ul = document.createElement("ul");
-  years.forEach(year => {
-    if (year) {
-      const li = document.createElement("li");
-      li.textContent = year;
-      li.className = "year-item";
+  uniqueYears.forEach(year => {
+    const li = document.createElement("li");
+    li.textContent = year;
+    li.className = "year-item";
 
-      li.addEventListener("click", () => {
-        console.log(`Clicked on year: ${year}`);
-      });
+    li.addEventListener("click", () => {
+      console.log(`Clicked on year: ${year}`);
+    });
 
-      ul.appendChild(li);
-    }
+    ul.appendChild(li);
   });
 
   yearsListDiv.appendChild(ul);
