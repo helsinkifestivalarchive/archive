@@ -40,3 +40,46 @@ document.addEventListener("DOMContentLoaded", () => {
   // Initial load
   updateContent();
 });
+
+// Helper function to fetch CSV data and parse it
+async function fetchCSV(url) {
+  const response = await fetch(url);
+  const text = await response.text();
+  const rows = text.split("\n").slice(1); // Skip header row
+
+  return rows.map(row => row.trim());
+}
+
+// Function to load and display years
+async function displayYears() {
+  const yearsListDiv = document.getElementById("years-list");
+  yearsListDiv.innerHTML = "<h2>Festival Years</h2>";
+
+  // Fetch years from the CSV file
+  const years = await fetchCSV("data/Years.csv");
+
+  // Create an unordered list for the years
+  const ul = document.createElement("ul");
+  years.forEach(year => {
+    if (year) { // Avoid empty rows
+      const li = document.createElement("li");
+      li.textContent = year;
+      li.className = "year-item";
+
+      // Add a click event to each year item
+      li.addEventListener("click", () => {
+        // This is where you would load the specific year's data
+        // For now, just log the year to confirm it works
+        console.log(`Year selected: ${year}`);
+      });
+
+      ul.appendChild(li);
+    }
+  });
+
+  yearsListDiv.appendChild(ul);
+}
+
+// Call displayYears on page load
+document.addEventListener("DOMContentLoaded", displayYears);
+
