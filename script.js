@@ -13,6 +13,8 @@ async function fetchCSV(url) {
   }
 }
 
+
+
 // Function to display the years
 async function displayYears() {
   const yearsListDiv = document.getElementById("years-list");
@@ -50,3 +52,7 @@ async function displayYears() {
 }
 
 document.addEventListener("DOMContentLoaded", displayYears);
+
+document.addEventListener("DOMContentLoaded", () => {
+  displayYears();
+});
