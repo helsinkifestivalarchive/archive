@@ -60,3 +60,4 @@ function handleFilterChange() {
 
 // Initialize the page
 populateYears();
+
