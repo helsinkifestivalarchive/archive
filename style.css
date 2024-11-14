@@ -1,0 +1,20 @@
+#years-list h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+#years-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.year-item {
+  cursor: pointer;
+  margin: 0.2em 0;
+  padding: 0.2em;
+  color: #333;
+}
+
+.year-item:hover {
+  color: #0073e6;
+}
