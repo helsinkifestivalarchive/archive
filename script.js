@@ -1,4 +1,4 @@
-const csvUrl = 'Years.csv';
+const csvUrl = 'data/Years.csv';
 
 // Function to fetch CSV data and handle any potential issues
 async function fetchCSV(url) {
