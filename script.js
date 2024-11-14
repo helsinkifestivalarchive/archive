@@ -1,5 +1,5 @@
 // URL to your CSV file (update with the actual path to your CSV file)
-const csvUrl = 'Years.csv';
+const csvUrl = 'data/Years.csv';
 
 // Function to fetch CSV data and remove duplicates
 async function fetchCSV(url) {
