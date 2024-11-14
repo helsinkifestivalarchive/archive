@@ -1,85 +1,60 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const filterSelect = document.getElementById("filter");
-  const contentDiv = document.getElementById("content");
-
-  // Function to fetch data from JSON
-  async function fetchData(category) {
-    const response = await fetch(`data/${category}.json`);
-    const data = await response.json();
-    return data;
-  }
-
-  // Populate content based on filter
-  async function updateContent() {
-    const filter = filterSelect.value;
-    const data = await fetchData(filter);
-
-    // Clear previous content
-    contentDiv.innerHTML = "";
-
-    // Create a list of items for the selected filter
-    const list = document.createElement("ul");
-    data.forEach(item => {
-      const listItem = document.createElement("li");
-      listItem.textContent = item; // Adjust this based on your data structure
-      listItem.addEventListener("click", () => displayDetails(item));
-      list.appendChild(listItem);
-    });
-    contentDiv.appendChild(list);
-  }
-
-  function displayDetails(item) {
-    // Load specific data related to the selected item
-    // Display it in the contentDiv or redirect to a detailed page
-    contentDiv.innerHTML = `<h2>${item.name}</h2><p>Details: ${item.details}</p>`;
-  }
-
-  // Event Listener for filter change
-  filterSelect.addEventListener("change", updateContent);
-
-  // Initial load
-  updateContent();
-});
-
-// Helper function to fetch CSV data and parse it
+// Function to fetch and parse CSV data
 async function fetchCSV(url) {
-  const response = await fetch(url);
-  const text = await response.text();
-  const rows = text.split("\n").slice(1); // Skip header row
+  try {
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`Error fetching data: ${response.statusText}`);
+    
+    const text = await response.text();
+    const rows = text.split("\n").slice(1); // Split by line and skip the header row
 
-  return rows.map(row => row.trim());
+    return rows.map(row => row.trim()); // Remove extra whitespace and return the rows as an array
+  } catch (error) {
+    console.error("Error fetching or parsing CSV data:", error);
+    return [];
+  }
 }
 
-// Function to load and display years
+// Function to display the list of years
 async function displayYears() {
   const yearsListDiv = document.getElementById("years-list");
+  if (!yearsListDiv) {
+    console.error("Element with ID 'years-list' not found.");
+    return;
+  }
+
   yearsListDiv.innerHTML = "<h2>Festival Years</h2>";
 
-  // Fetch years from the CSV file
+  // Fetch the years from the CSV file
   const years = await fetchCSV("data/Years.csv");
 
-  // Create an unordered list for the years
+  // Check if any years were fetched
+  if (years.length === 0) {
+    yearsListDiv.innerHTML += "<p>No data available</p>";
+    return;
+  }
+
+  // Create an unordered list element
   const ul = document.createElement("ul");
+  ul.id = "years-list-ul";
+
   years.forEach(year => {
-    if (year) { // Avoid empty rows
+    if (year) { // Skip any empty rows
       const li = document.createElement("li");
       li.textContent = year;
       li.className = "year-item";
 
-      // Add a click event to each year item
+      // Add a click event to each year item (for future navigation functionality)
       li.addEventListener("click", () => {
-        // This is where you would load the specific year's data
-        // For now, just log the year to confirm it works
+        // For now, this just logs the selected year to the console
         console.log(`Year selected: ${year}`);
       });
 
-      ul.appendChild(li);
+      ul.appendChild(li); // Append each year to the unordered list
     }
   });
 
-  yearsListDiv.appendChild(ul);
+  yearsListDiv.appendChild(ul); // Append the list to the yearsListDiv
 }
 
-// Call displayYears on page load
+// Call displayYears when the page loads
 document.addEventListener("DOMContentLoaded", displayYears);
-
