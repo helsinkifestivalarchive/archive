@@ -1,106 +1,62 @@
-// Function to fetch CSV data
-// Function to fetch CSV data and handle duplicates and whitespace
+// URL to your CSV file (update with the actual path to your CSV file)
+const csvUrl = 'Years.csv';
+
+// Function to fetch CSV data and remove duplicates
 async function fetchCSV(url) {
   try {
     const response = await fetch(url);
     if (!response.ok) throw new Error(`Failed to fetch ${url}: ${response.statusText}`);
 
     const text = await response.text();
-    const rows = text.split("\n").slice(1); // Skip header row
+    const rows = text.split("\n").slice(1); // Remove the header row
 
-    // Clean up rows to remove whitespace and empty entries
-    const years = rows
-      .map(row => row.trim())         // Remove whitespace
-      .filter(row => row !== "")      // Remove any empty rows
-      .filter((value, index, self) => self.indexOf(value) === index); // Remove duplicates
+    // Use Set to remove duplicate years and return only unique values
+    const uniqueYears = new Set(
+      rows
+        .map(row => row.trim())
+        .filter(row => row !== "" && /^\d+$/.test(row)) // Keep only valid numeric years
+    );
 
-    return years;
+    return [...uniqueYears];  // Convert the Set back to an array
   } catch (error) {
     console.error("Error fetching CSV:", error);
     return [];
   }
 }
 
-// Function to display the years
-async function displayYears() {
-  const yearsListDiv = document.getElementById("years-list");
+// Function to populate the years list on the landing page
+async function populateYears() {
+  const years = await fetchCSV(csvUrl);
+  const yearsList = document.getElementById('years');
 
-  if (!yearsListDiv) {
-    console.error("No element with ID 'years-list' found.");
-    return;
-  }
+  // Clear previous list (in case of duplicates)
+  yearsList.innerHTML = '';
 
-  yearsListDiv.innerHTML = "<h2>Festival Years</h2>";
-
-  // Fetch the years from the CSV file
-  const years = await fetchCSV("data/Years.csv");
-
-  if (years.length === 0) {
-    yearsListDiv.innerHTML += "<p>No years found in the data.</p>";
-    return;
-  }
-
-  const ul = document.createElement("ul");
   years.forEach(year => {
-    const li = document.createElement("li");
-    li.textContent = year;
-    li.className = "year-item";
-
-    li.addEventListener("click", () => {
-      console.log(`Clicked on year: ${year}`);
-    });
-
-    ul.appendChild(li);
+    const listItem = document.createElement('li');
+    listItem.textContent = year;
+    yearsList.appendChild(listItem);
   });
-
-  yearsListDiv.appendChild(ul);
 }
 
-document.addEventListener("DOMContentLoaded", displayYears);
+// Handle filter change and show appropriate category options
+function handleFilterChange() {
+  const filterValue = document.getElementById('filter').value;
+  const categoryOptionsDiv = document.getElementById('category-options');
+  const filterOptionsSection = document.getElementById('filter-options');
 
+  if (filterValue === 'year') {
+    categoryOptionsDiv.innerHTML = '';  // Clear previous options
+    filterOptionsSection.style.display = 'none'; // Hide filter options section
+  } else {
+    filterOptionsSection.style.display = 'block'; // Show filter options section
 
-
-
-// Function to display the years
-async function displayYears() {
-  const yearsListDiv = document.getElementById("years-list");
-
-  if (!yearsListDiv) {
-    console.error("No element with ID 'years-list' found.");
-    return;
+    // Here, you can add more logic to fetch other categories like genre, venue, or type of art
+    categoryOptionsDiv.innerHTML = `
+      <p>Sorry, this part is not implemented yet. You can filter by Year.</p>
+    `;
   }
-
-  yearsListDiv.innerHTML = "<h2>Festival Years</h2>";
-
-  // Fetch the years from the CSV file
-  const years = await fetchCSV("data/Years.csv");
-
-  // Deduplicate years by using a Set
-  const uniqueYears = [...new Set(years.filter(year => year))]; // Filter out any empty rows
-
-  if (uniqueYears.length === 0) {
-    yearsListDiv.innerHTML += "<p>No years found in the data.</p>";
-    return;
-  }
-
-  const ul = document.createElement("ul");
-  uniqueYears.forEach(year => {
-    const li = document.createElement("li");
-    li.textContent = year;
-    li.className = "year-item";
-
-    li.addEventListener("click", () => {
-      console.log(`Clicked on year: ${year}`);
-    });
-
-    ul.appendChild(li);
-  });
-
-  yearsListDiv.appendChild(ul);
 }
 
-document.addEventListener("DOMContentLoaded", displayYears);
-
-document.addEventListener("DOMContentLoaded", () => {
-  displayYears();
-});
+// Initialize the page
+populateYears();
