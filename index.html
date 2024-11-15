@@ -8,13 +8,15 @@
 </head>
 <body>
   <header>
-    <h1>Helsingin juhlaviikot arkisto . Helsinki Festival Archive</h1>
-    <select id="filter" onchange="handleFilterChange()">
-      <option value="Years">Years</option>
-      <option value="Venues">Venues</option>
-      <option value="Genres">Genres</option>
-      <option value="Artforms">Artforms</option>
-    </select>
+    <div id="category-list">
+    <h2>Categories</h2>
+    <ul>
+      <li><button onclick="loadData('years')">Years</button></li>
+      <li><button onclick="loadData('genres')">Genres</button></li>
+      <li><button onclick="loadData('venues')">Venues</button></li>
+      <li><button onclick="loadData('Artforms')">Artforms</button></li>
+    </ul>
+  </div>
   </header>
 
   <main>
