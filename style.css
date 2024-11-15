@@ -6,6 +6,7 @@
 #years-list ul {
   list-style-type: none;
   padding: 0;
+  display: inline;
 }
 
 .year-item {
@@ -27,16 +28,13 @@ body {
   margin: 20px;
 }
 
-h1 {
-  text-align: center;
-}
-
 #years {
   display: flex;
   flex-wrap: wrap; /* Allows items to wrap onto the next line */
   gap: 10px; /* Spacing between items */
   list-style-type: none; /* Remove default list styling */
   padding: 0;
+  display:inline;
 }
 
 #years li {
@@ -57,11 +55,4 @@ h1 {
   color: red;
 }
 
-#div_top_hypers {
-    background-color:#eeeeee;
-    display:inline;      
-}
-#ul_top_hypers {
-    display: inline;
-}
 
