@@ -29,6 +29,47 @@ async function displayYears() {
   // Check if any years were fetched
   if (years.length === 0) {
     yearsListDiv.innerHTML += "<p>No data available</p>";
+
+  document.addEventListener("DOMContentLoaded", function () {
+  const filterDropdown = document.getElementById("filter");
+  const displayList = document.getElementById("years");
+  const errorMessage = document.getElementById("error-message");
+
+  // Load CSV files based on filter
+  async function loadData(filter) {
+    try {
+      // Clear any existing list items
+      displayList.innerHTML = "";
+
+      // Load data from the appropriate CSV file
+      let response = await fetch(`${filter}.csv`);
+      if (!response.ok) throw new Error(`Failed to load ${filter}.csv`);
+
+      let data = await response.text();
+      let rows = data.split("\n").map(row => row.trim()).filter(row => row);
+
+      // Remove header if present and display items
+      if (rows[0].toLowerCase().includes(filter)) rows.shift();
+      rows.forEach(item => {
+        let listItem = document.createElement("li");
+        listItem.textContent = item;
+        displayList.appendChild(listItem);
+      });
+    } catch (error) {
+      errorMessage.textContent = error.message;
+    }
+  }
+
+  // Initial load with "Year" as the default filter
+  loadData("year");
+
+  // Update displayed data when the filter changes
+  filterDropdown.addEventListener("change", () => {
+    const selectedFilter = filterDropdown.value;
+    loadData(selectedFilter);
+  });
+});
+
     return;
   }
 
