@@ -5,6 +5,7 @@
 
 #years-list ul {
   list-style-type: none;
+  list-style: none;
   padding: 0;
   display: flex; /* Use flexbox to organize list items horizontally */
   flex-wrap: wrap; /* Allow items to wrap if they overflow */
@@ -47,6 +48,7 @@ body {
   cursor: pointer;
   font-weight: bold;
   transition: background-color 0.3s;
+  list-style: none;
 }
 
 #years li:hover {
@@ -58,7 +60,7 @@ body {
 }
 
 button {
-  background: none; /* Fixed invalid value */
+  background: none;/* Fixed invalid value */
   border: none;
   color: black;
   padding: 15px 32px;
