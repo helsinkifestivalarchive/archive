@@ -6,16 +6,17 @@
 #years-list ul {
   list-style-type: none;
   padding: 0;
-  display: inline;
+  display: flex; /* Use flexbox to organize list items horizontally */
+  flex-wrap: wrap; /* Allow items to wrap if they overflow */
+  gap: 10px; /* Add spacing between items */
 }
 
 .year-item {
   cursor: pointer;
-  margin: none;
-  padding: none;
+  margin: 0; /* Corrected from 'none' */
+  padding: 0; /* Corrected from 'none' */
   color: white;
-  position: absolute;
-  right: 20px;
+  position: relative; /* Changed to 'relative' to avoid positioning issues */
 }
 
 .year-item:hover {
@@ -36,7 +37,6 @@ body {
   gap: 10px; /* Spacing between items */
   list-style-type: none; /* Remove default list styling */
   padding: 0;
-  display:inline;
 }
 
 #years li {
@@ -46,7 +46,6 @@ body {
   cursor: pointer;
   font-weight: bold;
   transition: background-color 0.3s;
-  flex-wrap: wrap;
 }
 
 #years li:hover {
@@ -58,7 +57,7 @@ body {
 }
 
 button {
-  background-color: none;
+  background: none; /* Fixed invalid value */
   border: none;
   color: black;
   padding: 15px 32px;
@@ -69,5 +68,3 @@ button {
   margin: 4px 2px;
   cursor: pointer;
 }
-
-
