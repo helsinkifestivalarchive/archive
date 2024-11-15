@@ -16,7 +16,8 @@
   margin: 0; /* Corrected from 'none' */
   padding: 0; /* Corrected from 'none' */
   color: black;
-  position: relative; /* Changed to 'relative' to avoid positioning issues */
+  position: relative;
+  font-size: 16px; /* Changed to 'relative' to avoid positioning issues */
 }
 
 .year-item:hover {
