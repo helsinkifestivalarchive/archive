@@ -17,7 +17,8 @@
 }
 
 .year-item:hover {
-  color: #0073e6;
+  color: #000000;
+  text-decoration: underline;
 }
 
 body {
@@ -43,6 +44,7 @@ body {
   cursor: pointer;
   font-weight: bold;
   transition: background-color 0.3s;
+  flex-wrap: wrap;
 }
 
 #years li:hover {
