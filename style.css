@@ -57,4 +57,11 @@ h1 {
   color: red;
 }
 
+#div_top_hypers {
+    background-color:#eeeeee;
+    display:inline;      
+}
+#ul_top_hypers {
+    display: inline;
+}
 
