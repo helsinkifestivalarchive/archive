@@ -14,6 +14,48 @@ async function fetchCSV(url) {
   }
 }
 
+document.addEventListener("DOMContentLoaded", () => {
+  const dataDisplay = document.getElementById("data-display");
+
+  // Function to fetch and parse CSV
+  async function fetchCSV(filePath) {
+    const response = await fetch(filePath);
+    const text = await response.text();
+    return text.split("\n").map((line) => line.trim()).filter((line) => line);
+  }
+
+  // Function to display data
+  function displayData(data) {
+    dataDisplay.innerHTML = ""; // Clear previous content
+    data.forEach((item) => {
+      const li = document.createElement("li");
+      li.textContent = item;
+      dataDisplay.appendChild(li);
+    });
+  }
+
+ // Add event listeners for categories
+  document.getElementById("filter-years").addEventListener("click", async () => {
+    const years = await fetchCSV("data/Years.csv");
+    displayData(years);
+  });
+
+  document.getElementById("filter-genres").addEventListener("click", async () => {
+    const genres = await fetchCSV("data/Genres.csv");
+    displayData(genres);
+  });
+
+  document.getElementById("filter-venues").addEventListener("click", async () => {
+    const venues = await fetchCSV("data/Venues.csv");
+    displayData(venues);
+  });
+
+  document.getElementById("filter-artforms").addEventListener("click", async () => {
+    const artforms = await fetchCSV("data/Artforms.csv");
+    displayData(artforms);
+  });
+});
+
 // Function to display the list of years
 async function displayYears() {
   const yearsListDiv = document.getElementById("years-list");
