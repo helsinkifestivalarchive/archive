@@ -15,7 +15,7 @@
   cursor: pointer;
   margin: 0; /* Corrected from 'none' */
   padding: 0; /* Corrected from 'none' */
-  color: white;
+  color: black;
   position: relative; /* Changed to 'relative' to avoid positioning issues */
 }
 
