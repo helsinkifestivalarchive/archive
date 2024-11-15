@@ -8,7 +8,7 @@
   padding: 0;
   display: flex; /* Use flexbox to organize list items horizontally */
   flex-wrap: wrap; /* Allow items to wrap if they overflow */
-  gap: 10px; /* Add spacing between items */
+  gap: 5px; /* Add spacing between items */
 }
 
 .year-item {
@@ -35,7 +35,7 @@ body {
 #years {
   display: flex;
   flex-wrap: wrap; /* Allows items to wrap onto the next line */
-  gap: 10px; /* Spacing between items */
+  gap: 30px; /* Spacing between items */
   list-style-type: none; /* Remove default list styling */
   padding: 0;
 }
