@@ -21,10 +21,9 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin: 20px;
 }
 
