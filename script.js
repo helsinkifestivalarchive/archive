@@ -22,7 +22,6 @@ async function displayYears() {
     return;
   }
 
-  yearsListDiv.innerHTML = "<h2>Festival Years</h2>";
 
   // Fetch the years from the CSV file
   const years = await fetchCSV("data/Years.csv");
