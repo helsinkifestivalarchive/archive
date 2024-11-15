@@ -14,6 +14,45 @@ async function fetchCSV(url) {
   }
 }
 
+function loadData(fileName) {
+  const displayDiv = document.getElementById("data-display");
+  displayDiv.innerHTML = "Loading...";
+
+  // Fetch the selected CSV file
+  fetch(`data/${fileName}`)
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(`Failed to load ${fileName}`);
+      }
+      return response.text();
+    })
+    .then((data) => {
+      const parsedData = parseCSV(data); // Parse the CSV data
+      displayDiv.innerHTML = generateHTML(parsedData); // Generate and display the list
+    })
+    .catch((error) => {
+      console.error(error);
+      displayDiv.innerHTML = `Error: Could not load data for ${fileName}`;
+    });
+}
+
+// Function to parse CSV data into an array of rows
+function parseCSV(data) {
+  const rows = data.split("\n").map((row) => row.split(","));
+  return rows;
+}
+
+// Function to generate an HTML list from the parsed CSV data
+function generateHTML(data) {
+  let html = "<ul>";
+  data.forEach((row) => {
+    // Display the first column of each row (customize as needed)
+    html += `<li>${row[0]}</li>`;
+  });
+  html += "</ul>";
+  return html;
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const dataDisplay = document.getElementById("data-display");
 
