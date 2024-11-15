@@ -42,7 +42,7 @@ async function displayYears() {
       displayList.innerHTML = "";
 
       // Load data from the appropriate CSV file
-      let response = await fetch(`${filter}.csv`);
+      let response = await fetch(`data/${filter}.csv`);
       if (!response.ok) throw new Error(`Failed to load ${filter}.csv`);
 
       let data = await response.text();
