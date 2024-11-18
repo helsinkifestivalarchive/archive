@@ -11,12 +11,10 @@ body {
   width: 30%; /* Sets the width */
   top: 10%; /* Adjust the top position */
   z-index: 10; /* Makes sure it's above other elements */
-  font-size: 8px;
 }
 
 #category-list ul {
   list-style-type: none;
-  font-size: 8px;
   padding: 0;
   margin: 0; /* Corrected 'none' to '0' */
 }
@@ -25,7 +23,6 @@ body {
   border-top: 2px solid black; /* Adds a horizontal line below each item */
   padding: 0; /* Adds spacing between items */
   text-align: right; /* Aligns text/buttons to the right */
-  font-size: 8px;
 }
 
 #years-list {
@@ -99,7 +96,7 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 24px;
+  font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
 }
