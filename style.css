@@ -45,7 +45,6 @@ body {
   flex-wrap: wrap; /* Allow items to wrap if they overflow */
   gap: 20px; /* Add spacing between items */
   font-size: 42px;
-  margin-top: 10%; /* Adjusted margin-top to prevent overlap */
 }
 
 .year-item {
