@@ -19,9 +19,11 @@
   border-bottom: 1px solid black; /* Adds a horizontal line below each item */
   padding: 10px 0; /* Adds spacing between items */
   text-align: right; /* Aligns text/buttons to the right */
+}
 
 #category-list li:last-child {
   border-bottom: none; /* Removes the line after the last item */
+}
 
 #years-list ul {
   list-style-type: none;
