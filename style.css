@@ -93,6 +93,15 @@ body {
   margin-top: 5px; /* Adds spacing between the content and the black line */
 }
 
+.unstyled-link {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  background: none;
+  border: none;
+}
+
 button {
   background: none;
   border: none;
