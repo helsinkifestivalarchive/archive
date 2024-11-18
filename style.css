@@ -14,18 +14,14 @@ body {
 
 #category-list ul {
   list-style-type: none;
-  font-size: 10px;
+  font-size: 8px;
   padding: 0; /* Corrected 'none' to '0' */
 }
 
 #category-list li {
-  border-bottom: 1px solid black; /* Adds a horizontal line below each item */
+  border-top: 2px solid black; /* Adds a horizontal line below each item */
   padding: 0; /* Adds spacing between items */
   text-align: right; /* Aligns text/buttons to the right */
-}
-
-#category-list li:last-child {
-  border-bottom: none; /* Removes the line after the last item */
 }
 
 #years-list ul {
