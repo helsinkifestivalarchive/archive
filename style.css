@@ -8,6 +8,7 @@
  font-size: 16px; 
  position: absolute; /* Allows you to place the element */
  right: 20px;
+ padding: none;
 }
 
 #years-list ul {
