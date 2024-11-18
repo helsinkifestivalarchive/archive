@@ -31,8 +31,6 @@
   flex-wrap: wrap; /* Allow items to wrap if they overflow */
   gap: 20px; /* Add spacing between items */
   font-size: 42px;
-  margin-bottom: 50px;
-  z-index: 1;
 }
 
 .year-item {
@@ -102,13 +100,4 @@ button {
   margin: 4px 2px;
   cursor: pointer;
   text-align: right;
-}
-
-#page-footer {
-  position: relative; /* Allow it to flow naturally below content */
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-  z-index: 0; /* Lower stacking order */
 }
