@@ -10,9 +10,9 @@
 }
 
 #category-list ul {
- list-style-type: none; 
- font-size: 16px; 
- padding: none;
+  list-style-type: none;
+  font-size: 16px;
+  padding: 0; /* Corrected 'none' to '0' */
 }
 
 #category-list li {
@@ -27,7 +27,6 @@
 
 #years-list ul {
   list-style-type: none;
-  list-style: none;
   padding: 10px;
   display: flex; /* Use flexbox to organize list items horizontally */
   flex-wrap: wrap; /* Allow items to wrap if they overflow */
@@ -40,8 +39,8 @@
   margin: 0; /* Corrected from 'none' */
   padding: 0; /* Corrected from 'none' */
   color: black;
-  position: relative;
-  font-size: 42px; /* Changed to 'relative' to avoid positioning issues */
+  position: relative; /* Fixed positioning */
+  font-size: 42px;
 }
 
 .year-item:hover {
@@ -71,7 +70,6 @@ body {
   cursor: pointer;
   font-weight: bold;
   transition: background-color 0.3s;
-  list-style: none;
   margin: 20px 0;
 }
 
@@ -89,9 +87,8 @@ body {
   width: 100%; /* Make it span across the entire screen */
 }
 
-
 button {
-  background: none;/* Fixed invalid value */
+  background: none; /* Fixed invalid value */
   border: none;
   color: black;
   padding: 15px 0;
@@ -101,5 +98,4 @@ button {
   font-size: 24px;
   margin: 4px 2px;
   cursor: pointer;
-  text-align: right;
 }
