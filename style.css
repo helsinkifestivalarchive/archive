@@ -25,6 +25,10 @@ body {
   text-align: right; /* Aligns text/buttons to the right */
 }
 
+#years-list {
+  margin-top: 20%; /* Pushes the years list down to avoid overlap with the category list */
+}
+
 #years-list ul {
   list-style-type: none;
   padding: 10px;
