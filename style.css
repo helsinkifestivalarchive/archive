@@ -16,7 +16,8 @@ body {
 #category-list ul {
   list-style-type: none;
   font-size: 8px;
-  padding: 0; /* Corrected 'none' to '0' */
+  padding: 0;
+  margin: 0:/* Corrected 'none' to '0' */
 }
 
 #category-list li {
@@ -36,6 +37,7 @@ body {
   flex-wrap: wrap; /* Allow items to wrap if they overflow */
   gap: 20px; /* Add spacing between items */
   font-size: 42px;
+  margin-top: 38.2%;
 }
 
 .year-item {
