@@ -9,7 +9,7 @@ body {
   position: absolute; /* Allows placement on the right */
   right: 0; /* Aligns it to the right edge */
   width: 30%; /* Sets the width */
-  top: 30%; /* Adjust the top position */
+  top: 10%; /* Adjust the top position */
   z-index: 10; /* Makes sure it's above other elements */
 }
 
@@ -24,6 +24,11 @@ body {
   border-left: 2px solid black;
   padding: 0; /* Adds spacing between items */
   text-align: right;
+}
+
+#category-list li:last-child {
+  width: 100%; /* Full width for the last item */
+  margin-left: 0;
 }
 
 #years-list {
