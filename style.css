@@ -11,10 +11,10 @@
 #years-list ul {
   list-style-type: none;
   list-style: none;
-  padding: 0;
+  padding: 20px;
   display: flex; /* Use flexbox to organize list items horizontally */
   flex-wrap: wrap; /* Allow items to wrap if they overflow */
-  gap: 5px; /* Add spacing between items */
+  gap: 20px; /* Add spacing between items */
   font-size: 42px;
 }
 
