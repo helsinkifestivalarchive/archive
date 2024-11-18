@@ -24,10 +24,11 @@ body {
   border-top: 2px solid black; /* Adds a horizontal line below each item */
   padding: 0; /* Adds spacing between items */
   text-align: right; /* Aligns text/buttons to the right */
+  font-size: 16px;
 }
 
 #years-list {
-  margin-top: 20%; /* Pushes the years list down to avoid overlap with the category list */
+  margin-top: 100px; /* Pushes the years list down to avoid overlap with the category list */
 }
 
 #years-list ul {
