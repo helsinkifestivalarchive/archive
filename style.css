@@ -3,13 +3,25 @@
   margin-bottom: 0.5em;
 }
 
+#category-list {
+  position: absolute; /* Allows placement on the right */
+  right: 0; /* Aligns it to the right edge */
+  width: 38.2%; /* Sets the width */
+}
+
 #category-list ul {
  list-style-type: none; 
  font-size: 16px; 
- position: absolute; /* Allows you to place the element */
- right: 20px;
  padding: none;
 }
+
+#category-list li {
+  border-bottom: 1px solid black; /* Adds a horizontal line below each item */
+  padding: 10px 0; /* Adds spacing between items */
+  text-align: right; /* Aligns text/buttons to the right */
+
+#categories-list li:last-child {
+  border-bottom: none; /* Removes the line after the last item */
 
 #years-list ul {
   list-style-type: none;
