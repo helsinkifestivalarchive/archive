@@ -2,7 +2,7 @@ body {
   font-family: Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin: 10px;
 }
 
 #category-list {
@@ -28,7 +28,8 @@ body {
 }
 
 #years-list {
-  margin-top: 30px; /* Pushes the years list down to avoid overlap with the category list */
+  margin-top: 15px; /* Pushes the years list down to avoid overlap with the category list */
+  margin-bottom: 30px;
 }
 
 #years-list ul {
