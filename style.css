@@ -84,7 +84,7 @@ body {
   border: none; /* Remove default border styling */
   border-top: 2px solid black; /* Define the thickness and color */
   width: 100%; /* Make it span across the entire screen */
-  margin-top: 10px; /* Adds spacing between the content and the black line */
+  margin-top: 1px; /* Adds spacing between the content and the black line */
   z-index: 5; /* Make sure the black line stays behind the category list */
 }
 
