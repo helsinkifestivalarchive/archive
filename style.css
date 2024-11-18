@@ -10,6 +10,7 @@ body {
   right: 0; /* Aligns it to the right edge */
   width: 38.2%; /* Sets the width */
   top: 10%;
+  z-index: 10;
 }
 
 #category-list ul {
