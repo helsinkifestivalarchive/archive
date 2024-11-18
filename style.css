@@ -9,15 +9,15 @@ body {
   position: absolute; /* Allows placement on the right */
   right: 0; /* Aligns it to the right edge */
   width: 38.2%; /* Sets the width */
-  top: 10%;
-  z-index: 10;
+  top: 10%; /* Adjust the top position */
+  z-index: 10; /* Makes sure it's above other elements */
 }
 
 #category-list ul {
   list-style-type: none;
   font-size: 8px;
   padding: 0;
-  margin: 0:/* Corrected 'none' to '0' */
+  margin: 0; /* Corrected 'none' to '0' */
 }
 
 #category-list li {
@@ -37,7 +37,7 @@ body {
   flex-wrap: wrap; /* Allow items to wrap if they overflow */
   gap: 20px; /* Add spacing between items */
   font-size: 42px;
-  margin-top: 38.2%;
+  margin-top: 10%; /* Adjusted margin-top to prevent overlap */
 }
 
 .year-item {
@@ -53,8 +53,6 @@ body {
   color: #1f2021;
   text-decoration: underline;
 }
-
-
 
 #years {
   display: flex;
@@ -86,6 +84,8 @@ body {
   border: none; /* Remove default border styling */
   border-top: 2px solid black; /* Define the thickness and color */
   width: 100%; /* Make it span across the entire screen */
+  margin-top: 5%; /* Adds spacing between the content and the black line */
+  z-index: 5; /* Make sure the black line stays behind the category list */
 }
 
 button {
