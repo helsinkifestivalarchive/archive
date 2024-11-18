@@ -20,8 +20,8 @@ body {
 }
 
 #category-list li {
-  border-top: 1.5px solid black; 
-  border-left: 1.5px solid black;
+  border-top: 2px solid black; 
+  border-left: 2px solid black;
   padding: 0; /* Adds spacing between items */
   text-align: right;
 }
@@ -29,8 +29,8 @@ body {
 #category-list li:last-child {
   width: 100%; /* Full width for the last item */
   margin-left: 0;
-  border-left: 1.5px solid black;
-  border-bottom: 1.5px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 #years-list {
@@ -45,7 +45,7 @@ body {
   flex-wrap: wrap; /* Allow items to wrap if they overflow */
   gap: 20px; /* Add spacing between items */
   font-size: 42px;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .year-item {
@@ -90,7 +90,7 @@ body {
 
 .black-line {
   border: none; /* Remove default border styling */
-  border-top: 1.5px solid black; /* Define the thickness and color */
+  border-top: 2px solid black; /* Define the thickness and color */
   width: 100%; /* Make it span across the entire screen */
   margin-top: 5px; /* Adds spacing between the content and the black line */
 }
