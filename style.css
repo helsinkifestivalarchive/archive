@@ -5,6 +5,10 @@ body {
   margin: 10px;
 }
 
+h1 {
+  font-size: 42px;
+}
+
 #category-list {
   position: absolute; /* Allows placement on the right */
   right: 0; /* Aligns it to the right edge */
@@ -20,8 +24,8 @@ body {
 }
 
 #category-list li {
-  border-top: 2px solid black; 
-  border-left: 2px solid black;
+  border-top: 1.5px solid black; 
+  border-left: 1.5px solid black;
   padding: 0; /* Adds spacing between items */
   text-align: right;
 }
@@ -29,8 +33,8 @@ body {
 #category-list li:last-child {
   width: 100%; /* Full width for the last item */
   margin-left: 0;
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
+  border-left: 1.5px solid black;
+  border-bottom: 1.5px solid black;
 }
 
 #years-list {
@@ -89,7 +93,7 @@ body {
 
 .black-line {
   border: none; /* Remove default border styling */
-  border-top: 2px solid black; /* Define the thickness and color */
+  border-top: 1.5px solid black; /* Define the thickness and color */
   width: 100%; /* Make it span across the entire screen */
   margin-top: 5px; /* Adds spacing between the content and the black line */
 }
