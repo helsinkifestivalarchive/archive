@@ -27,7 +27,7 @@ body {
 
 #years-list {
   margin-top: 10px; /* Pushes the years list down to avoid overlap with the category list */
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 #years-list ul {
