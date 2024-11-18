@@ -15,7 +15,7 @@
   display: flex; /* Use flexbox to organize list items horizontally */
   flex-wrap: wrap; /* Allow items to wrap if they overflow */
   gap: 5px; /* Add spacing between items */
-  font-size: 16px;
+  font-size: 42px;
 }
 
 .year-item {
@@ -24,7 +24,7 @@
   padding: 0; /* Corrected from 'none' */
   color: black;
   position: relative;
-  font-size: 16px; /* Changed to 'relative' to avoid positioning issues */
+  font-size: 42px; /* Changed to 'relative' to avoid positioning issues */
 }
 
 .year-item:hover {
