@@ -55,6 +55,7 @@ body {
   font-weight: bold;
   transition: background-color 0.3s;
   list-style: none;
+  margin: 20px 0;
 }
 
 #years li:hover {
@@ -64,6 +65,14 @@ body {
 #error-message {
   color: red;
 }
+
+.black-line {
+  border: none; /* Remove default border styling */
+  border-top: 2px solid black; /* Define the thickness and color */
+  margin: 20px 0; /* Add some spacing above and below */
+  width: 100%; /* Make it span across the entire screen */
+}
+
 
 button {
   background: none;/* Fixed invalid value */
