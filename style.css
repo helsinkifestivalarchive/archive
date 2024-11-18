@@ -6,13 +6,13 @@
 #category-list ul {
  list-style-type: none; 
  font-size: 16px; 
+ position: absolute; /* Allows you to place the element */
+ right: 20px;
 }
 
 #years-list ul {
   list-style-type: none;
   list-style: none;
-  position: absolute; /* Allows you to place the element */
-  right: 20px;
   padding: 10px;
   display: flex; /* Use flexbox to organize list items horizontally */
   flex-wrap: wrap; /* Allow items to wrap if they overflow */
