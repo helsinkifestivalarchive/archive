@@ -1,23 +1,26 @@
-#years-list h2 {
-  font-size: 1.5em;
-  margin-bottom: 0.5em;
+body {
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
 }
 
 #category-list {
   position: absolute; /* Allows placement on the right */
   right: 0; /* Aligns it to the right edge */
   width: 38.2%; /* Sets the width */
+  top: 10%;
 }
 
 #category-list ul {
   list-style-type: none;
-  font-size: 16px;
+  font-size: 10px;
   padding: 0; /* Corrected 'none' to '0' */
 }
 
 #category-list li {
   border-bottom: 1px solid black; /* Adds a horizontal line below each item */
-  padding: 10px 0; /* Adds spacing between items */
+  padding: 0; /* Adds spacing between items */
   text-align: right; /* Aligns text/buttons to the right */
 }
 
@@ -48,12 +51,7 @@
   text-decoration: underline;
 }
 
-body {
-  font-family: Helvetica, sans-serif;
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-}
+
 
 #years {
   display: flex;
