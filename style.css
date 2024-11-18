@@ -16,13 +16,14 @@ body {
 #category-list ul {
   list-style-type: none;
   padding: 0;
-  margin: 0; /* Corrected 'none' to '0' */
+  margin: 0;
 }
 
 #category-list li {
-  border-top: 2px solid black; /* Adds a horizontal line below each item */
+  border-top: 2px solid black; 
+  border-left: 2px solid black;
   padding: 0; /* Adds spacing between items */
-  text-align: right; /* Aligns text/buttons to the right */
+  text-align: right;
 }
 
 #years-list {
