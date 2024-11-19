@@ -50,7 +50,7 @@ h1 {
   flex-wrap: wrap; /* Allow items to wrap if they overflow */
   gap: 20px; /* Add spacing between items */
   font-size: 42px;
-  margin: 10px;
+  margin: 10%;
 }
 
 .year-item {
