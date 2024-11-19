@@ -159,7 +159,6 @@ async function displayYears() {
   ul.id = "years-list-ul";
 
   years.forEach(year => {
-    if (year) { // Skip any empty rows
       const li = document.createElement("li");
       li.textContent = year;
       li.className = "year-item";
