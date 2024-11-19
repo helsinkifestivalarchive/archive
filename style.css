@@ -16,6 +16,7 @@ body {
 
 #category-list {
   position: absolute; /* Allows placement on the right */
+  display: flex;
   right: 0; /* Aligns it to the right edge */
   width: 30%; /* Sets the width */
   top: 10%; /* Adjust the top position */
