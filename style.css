@@ -6,11 +6,7 @@ body {
 }
 
 #container {
-  display: flex;
-  flex-direction: column; /* Stack items vertically */
-  gap: 10px; /* Add spacing between elements */
-  margin: 0 auto; /* Center the entire container on the page */
-  width: 100%; /* Adjust width as needed */
+  z-index: 10;
 }
 
 #category-list {
@@ -19,7 +15,7 @@ body {
   right: 0; /* Aligns it to the right edge */
   width: 30%; /* Sets the width */
   top: 10%; /* Adjust the top position */
-  z-index: 10; /* Makes sure it's above other elements */
+  z-index: 9; /* Makes sure it's above other elements */
 }
 
 #category-list ul {
@@ -42,9 +38,14 @@ body {
   border-bottom: 2px solid black;
 }
 
+#line {
+  z-index: 7;
+}
+
 #years-list {
   margin-top: 5px; /* Pushes the years list down to avoid overlap with the category list */
   margin-bottom: 50px;
+  z-index: 6;
 }
 
 #years-list ul {
@@ -102,6 +103,7 @@ body {
   border-top: 2px solid black; /* Define the thickness and color */
   width: 100%; /* Make it span across the entire screen */
   margin-top: 5px; /* Adds spacing between the content and the black line */
+  z-index: 5;
 }
 
 .unstyled-link {
@@ -124,4 +126,5 @@ button {
   font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
+  z-index: 8;
 }
