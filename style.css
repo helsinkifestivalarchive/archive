@@ -5,6 +5,10 @@ body {
   margin: 10px;
 }
 
+h1 {
+  margin-bottom: 10px;
+}
+
 #category-list {
   position: absolute; /* Allows placement on the right */
   right: 0; /* Aligns it to the right edge */
