@@ -5,6 +5,15 @@ body {
   margin: 10px;
 }
 
+#container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center-align items horizontally */
+  gap: 10px; /* Add spacing between elements */
+  margin: 0 auto; /* Center the entire container on the page */
+  width: 100%; /* Adjust width as needed */
+}
+
 #category-list {
   position: absolute; /* Allows placement on the right */
   right: 0; /* Aligns it to the right edge */
