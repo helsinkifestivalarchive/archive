@@ -16,7 +16,7 @@ async function fetchCSV(filePath) {
 }
 
 // Function to display data in a list
-function displayData(data, containerId) {
+function displayData(data, containerId, makeClickable = false) {
   const container = document.getElementById(containerId);
   if (!container) {
     console.error(`Element with ID '${containerId}' not found.`);
@@ -36,29 +36,38 @@ function displayData(data, containerId) {
   data.forEach((item) => {
     const li = document.createElement("li");
     li.textContent = item;
+
+    // Make items clickable if specified
+    if (makeClickable) {
+      li.addEventListener("click", () => {
+        console.log(`Item clicked: ${item}`);
+      });
+      li.style.cursor = "pointer"; // Add pointer cursor for clickable items
+    }
+
     ul.appendChild(li);
   });
   container.appendChild(ul);
 }
 
-// Function to handle category button clicks
-async function handleCategoryClick(fileName, containerId) {
-  const data = await fetchCSV(`data/${fileName}`);
-  displayData(data, containerId);
-}
-
 // Function to display the years list on load
 async function displayYears() {
   const years = await fetchCSV("data/Years.csv");
-  displayData(years, "years-list");
+  displayData(years, "years-list", true); // Make years clickable
 }
 
-// Event listeners for category buttons
+// Function to handle category button clicks
+async function handleCategoryClick(fileName, containerId) {
+  const data = await fetchCSV(`data/${fileName}`);
+  displayData(data, containerId); // Do not make these items clickable
+}
+
+// Event listeners for buttons and initial load
 document.addEventListener("DOMContentLoaded", () => {
   // Display the years list on load
   displayYears();
 
-  // Attach event listeners to buttons
+  // Attach event listeners to category buttons
   document.getElementById("filter-years").addEventListener("click", () => {
     handleCategoryClick("Years.csv", "data-display");
   });
