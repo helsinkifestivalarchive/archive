@@ -92,7 +92,7 @@ body {
   border: none; /* Remove default border styling */
   border-top: 2px solid black; /* Define the thickness and color */
   width: 100%; /* Make it span across the entire screen */
-  margin-top: 156px; /* Adds spacing between the content and the black line */
+  margin-top: 157px; /* Adds spacing between the content and the black line */
   z-index: 5;
 }
 
