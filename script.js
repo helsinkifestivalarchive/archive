@@ -158,23 +158,25 @@ async function displayYears() {
   const ul = document.createElement("ul");
   ul.id = "years-list-ul";
 
-  years.forEach(year => {
-      const li = document.createElement("li");
-      li.textContent = year;
-      li.className = "year-item";
+years.forEach((year, index) => {
+  const li = document.createElement("li");
 
-      // Add a click event to each year item (for future navigation functionality)
-      li.addEventListener("click", () => {
-        // For now, this just logs the selected year to the console
-        console.log(`Year selected: ${year}`);
-      });
+  if (index < 3) {
+    // For the first three items, make them empty
+    li.textContent = ""; // Set the content to be empty
+    li.className = "empty-item"; // Optional: Add a class for styling empty lines
+  } else {
+    li.textContent = year; // Display the actual year for the rest
+    li.className = "year-item"; // Add a class for styling the years
+    li.addEventListener("click", () => {
+      console.log(`Year selected: ${year}`); // Log the selected year
+    });
+  }
 
-      ul.appendChild(li); // Append each year to the unordered list
-    }
-  });
+  ul.appendChild(li); // Append each item to the unordered list
+});
 
-  yearsListDiv.appendChild(ul); // Append the list to the yearsListDiv
-}
+yearsListDiv.appendChild(ul); // Append the list to the yearsListDiv
 
 // Call displayYears when the page loads
 document.addEventListener("DOMContentLoaded", displayYears);
