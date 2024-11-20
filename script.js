@@ -29,6 +29,11 @@ function displayData(data, targetId) {
   data.forEach(item => {
     const li = document.createElement("li");
     li.textContent = item;
+    
+    if (index < data.length - 1) {
+      li.textContent += ".";
+    }
+    
     li.addEventListener("click", () => {
       console.log(`Item clicked: ${item}`);
     });
