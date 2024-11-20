@@ -52,22 +52,22 @@ async function displayYears() {
 // Functions for category buttons
 async function handleYearsClick() {
   const years = await fetchCSV("data/Years.csv");
-  displayData(years, "data-display");
+  displayData(years, "years-list");
 }
 
 async function handleGenresClick() {
   const genres = await fetchCSV("data/Genres.csv");
-  displayData(genres, "data-display");
+  displayData(genres, "years-list");
 }
 
 async function handleVenuesClick() {
   const venues = await fetchCSV("data/Venues.csv");
-  displayData(venues, "data-display");
+  displayData(venues, "years-list");
 }
 
 async function handleArtformsClick() {
   const artforms = await fetchCSV("data/Artforms.csv");
-  displayData(artforms, "data-display");
+  displayData(artforms, "years-list");
 }
 
 // Event listeners for category buttons
