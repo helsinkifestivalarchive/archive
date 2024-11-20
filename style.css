@@ -40,6 +40,8 @@ h1 {
 #years-list {
   margin-top: 5px; /* Pushes the years list down to avoid overlap with the category list */
   margin-bottom: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
   z-index: 6;
 }
 
