@@ -40,7 +40,7 @@ h1 {
 #years-list {
   margin-top: 1px; /* Pushes the years list down to avoid overlap with the category list */
   margin-bottom: 10px;
-  margin-left: 0;
+  margin-left: 5%;
   margin-right: 0;
   z-index: 6;
 }
@@ -50,6 +50,7 @@ h1 {
   padding: 10px;
   display: flex; /* Use flexbox to organize list items horizontally */
   flex-wrap: wrap; /* Allow items to wrap if they overflow */
+  justify-content: space-evenly;
   gap: 20px; /* Add spacing between items */
   font-size: 42px;
   width: 90%;
