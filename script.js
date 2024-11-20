@@ -26,7 +26,7 @@ function displayData(data, targetId) {
   container.innerHTML = ""; // Clear previous content
   const ul = document.createElement("ul");
 
-  data.forEach(item => {
+  data.forEach((item, index) => {
     const li = document.createElement("li");
     li.textContent = item;
     
