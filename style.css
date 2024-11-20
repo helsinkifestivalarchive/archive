@@ -55,6 +55,11 @@ h1 {
   margin: 10%;
 }
 
+#years-list li:hover {
+  color: #1f2021;
+  text-decoration: underline;
+}
+  
 .year-item {
   cursor: pointer;
   margin: 0; /* Corrected from 'none' */
