@@ -56,6 +56,10 @@ h1 {
   width: 90%;
 }
 
+#years-list ul:last-child {
+  justify-content: start;
+}
+
 #years-list li:hover {
   color: #1f2021;
   text-decoration: underline;
