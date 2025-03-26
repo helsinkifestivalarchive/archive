@@ -167,8 +167,8 @@ button {
 }
 
 img {
-            width: 200px;  /* Set your desired thumbnail width */
-            height: 200px; /* Set your desired thumbnail height */
+            width: 20px;  /* Set your desired thumbnail width */
+            height: 20px; /* Set your desired thumbnail height */
             object-fit: cover; /* Ensure the image covers the area while keeping aspect ratio */
             padding: 5px;  /* Optional: adds space between images */
         }
