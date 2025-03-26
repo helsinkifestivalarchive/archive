@@ -166,3 +166,16 @@ button {
     transform: scale(1.05);
 }
 
+img {
+            max-width: 100%;
+            height: auto;
+            padding: 5px;  /* Optional: adds space between images */
+        }
+        
+        /* Add some space around your grid */
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+
