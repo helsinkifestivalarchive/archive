@@ -167,15 +167,16 @@ button {
 }
 
 img {
-            max-width: 100%;
-            height: auto;
+            width: 200px;  /* Set your desired thumbnail width */
+            height: 200px; /* Set your desired thumbnail height */
+            object-fit: cover; /* Ensure the image covers the area while keeping aspect ratio */
             padding: 5px;  /* Optional: adds space between images */
         }
         
-        /* Add some space around your grid */
+        /* Grid layout for images */
         .image-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(20px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Creates a responsive grid */
             gap: 10px;
         }
 
