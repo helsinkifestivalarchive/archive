@@ -167,9 +167,10 @@ button {
 }
 
 img {
-            max-width: 200px;  /* Set maximum width for thumbnails */
-            max-height: 200px; /* Set maximum height for thumbnails */
-            width: 100%;  /* Allow the image to scale down if needed */
+            display: block;            /* Removes extra space below images */
+            max-width: 100%;           /* Makes sure images are responsive */
+            max-height: 200px;         /* Limits height to 200px */
+            width: auto;               /* Auto adjust width based on the height */
             height: auto; /* Maintain aspect ratio */
             object-fit: cover; /* Ensure the image covers the area while keeping aspect ratio */
             padding: 5px;  /* Optional: adds space between images */
