@@ -171,9 +171,8 @@ img {
             max-width: 100%;           /* Makes sure images are responsive */
             max-height: 200px;         /* Limits height to 200px */
             width: auto;               /* Auto adjust width based on the height */
-            height: auto; /* Maintain aspect ratio */
             object-fit: none; /* Ensure the image covers the area while keeping aspect ratio */
-            padding: 5px;  /* Optional: adds space between images */
+            padding: 25px;  /* Optional: adds space between images */
         }
         
         /* Grid layout for images */
