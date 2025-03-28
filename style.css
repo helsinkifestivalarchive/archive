@@ -168,7 +168,6 @@ button {
 
 img {
             display: block;            /* Removes extra space below images */
-            max-width: 100%;           /* Makes sure images are responsive */
             max-height: 200px;         /* Limits height to 200px */
             object-fit: none; /* Ensure the image covers the area while keeping aspect ratio */
             padding: 25px;  /* Optional: adds space between images */
