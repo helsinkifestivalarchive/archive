@@ -108,9 +108,9 @@ h1 {
 
 .black-line {
   border: none; /* Remove default border styling */
-  border-top: 2px solid black; /* Define the thickness and color */
+  border-top: 1.2px solid black; /* Define the thickness and color */
   width: 100%; /* Make it span across the entire screen */
-  padding: 40px;
+  padding: 30px;
 }
 
 .unstyled-link {
